@@ -4,8 +4,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div>text blabla</div>
+        <h1>Vincent LAV | Portfolio</h1>
       </header>
+      <body>
+        <h2>Projets</h2>
+        <ul>
+          <li>Le Paris | Site web e-commerce</li>
+        </ul>
+      </body>
     </div>
   );
 }
