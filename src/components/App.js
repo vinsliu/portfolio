@@ -1,17 +1,14 @@
-import '../styles/App.css';
+import '../styles/App.css'
+import Header from './Header'
+import Body from './Body'
+import Footer from './Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Vincent LAV | Portfolio</h1>
-      </header>
-      <body>
-        <h2>Projets</h2>
-        <ul>
-          <li>Le Paris | Site web e-commerce</li>
-        </ul>
-      </body>
+    <div>
+      <Header />
+      <Body />
+      <Footer />
     </div>
   );
 }
