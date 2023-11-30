@@ -75,3 +75,6 @@ Color palette :
 #1C1C1C
 23714D
 #F1CCBA
+
+Run command ' npm run deploy -- -m "Deploy React app to GitHub Pages" ' to push into the repository.
+And not the command ' npm run build ' !!
